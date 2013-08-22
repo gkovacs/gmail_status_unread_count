@@ -48,7 +48,10 @@ def get_num_unread_messages(username, password):
 from time import sleep
 
 while True:
-  status_message = status_message_template.replace('NUM_UNREAD', str(get_num_unread_messages(gmail_username, gmail_password)))
+  num_unread_messages = get_num_unread_messages(gmail_username, gmail_password)
+  status_message = status_message_template.replace('NUM_UNREAD', str(num_unread_messages))
+  if num_unread_messages == 1:
+    status_message = status_message.replace('messages', 'message')
   print status_message
   set_status(gmail_username, gmail_password, status_message)
   sleep(refresh_interval)
