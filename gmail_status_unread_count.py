@@ -43,7 +43,7 @@ def get_num_unread_messages(username, password):
   imap_obj = imaplib.IMAP4_SSL('imap.gmail.com', '993')
   imap_obj.login(gmail_username, gmail_password)
   imap_obj.select()
-  return len(imap_obj.search(None, 'UnSeen')[1][0].split(' '))
+  return len([x for x in imap_obj.search(None, 'UnSeen')[1][0].split(' ') if x.strip() != ''])
 
 from time import sleep
 
