@@ -3,9 +3,9 @@ gmail_status_unread_count.py
 
 A script to set your gmail status based on the number of unread messages in your gmail inbox.
 
-*Github* http://github.com/gkovacs/gmail_status_unread_count
+*Github*: http://github.com/gkovacs/gmail_status_unread_count
 
-*Author* Geza Kovacs http://gkovacs.github.com
+*Author*: Geza Kovacs http://gkovacs.github.com
 
 Usage
 -----
@@ -34,13 +34,16 @@ You can supply a custom message in the first argument, and a refresh interval wi
 FAQ
 ---
 
-Q: Who in their right mind would use this?
+*Q*: Who in their right mind would use this?
+
 A: People with [Type-A personality](http://en.wikipedia.org/wiki/Type_A_personality). You're reading this, so you must be one of them. Welcome to the club!
 
-Q: What on earth is this useful for?
-A: Good question. Ask the people who use it.
+*Q*: What on earth is this useful for?
 
-Q: I'd like you to add a kitchen sink, and a unicorn.
-A: [Patches welcome](https://github.com/gkovacs/gmail_status_unread_count/pulls)
+*A*: Good question. Ask the people who use it.
+
+*Q*: I'd like you to add a kitchen sink, and a unicorn.
+
+*A*: [Patches welcome](https://github.com/gkovacs/gmail_status_unread_count/pulls)
 
 
