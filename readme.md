@@ -36,7 +36,7 @@ FAQ
 
 *Q*: Who in their right mind would use this?
 
-A: People with [Type-A personality](http://en.wikipedia.org/wiki/Type_A_personality). You're reading this, so you must be one of them. Welcome to the club!
+*A*: People with [Type-A personality](http://en.wikipedia.org/wiki/Type_A_personality). You're reading this, so you must be one of them. Welcome to the club!
 
 *Q*: What on earth is this useful for?
 
