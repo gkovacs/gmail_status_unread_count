@@ -1,4 +1,4 @@
-gmail_status_unread_count.py
+gmail status unread count
 -----
 
 A script to set your gmail status based on the number of unread messages in your gmail inbox.
