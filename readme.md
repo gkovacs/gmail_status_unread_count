@@ -5,7 +5,7 @@ A script to set your gmail status based on the number of unread messages in your
 
 *Github*: http://github.com/gkovacs/gmail_status_unread_count
 
-*Author*: Geza Kovacs http://gkovacs.github.com
+*Author*: [Geza Kovacs](http://gkovacs.github.com)
 
 Usage
 -----
@@ -27,7 +27,7 @@ Usage
 
     python gmail_status_unread_count.py
 
-You can supply a custom message in the first argument, and a refresh interval with the second argument. For example:
+You can supply a custom message in the first argument, and a refresh interval in the second argument:
 
     python gmail_status_unread_count.py 'NUM_UNREAD new messages in my inbox.' 10
 
